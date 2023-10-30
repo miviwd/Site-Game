@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0; 
+     padding-left: 0; 
+    margin-top: var(--bs-gutter-y);
+}
+
+.headline {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    ;
+}
+
+/* Ajustes para o NavBar */
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: center;
+    margin: 23px 119px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Ajustes para o Texto e Botão da Section "Headline" */
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.learn {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 125%;
+    /* 62.5px */
+}
+
+.curse {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 32px */
+}
+
+.btn-now {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cards {
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.card {
+    flex: 1;
+    margin: 0 10px;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.imagem {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.woman {
+    width: 446px;
+}
+
+/* Ajustes Segunda Section  */
+
+.about-curse{
+background: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.content-left{
+    width: 50%;
+}
+
+.content-right{
+    width: 50%;
+}
+
+.div1 {
+    background-color: #f0f0f0;
+    height: 100px;
+    position: relative; /* Importante para controlar o z-index */
+    z-index: 2; /* Define a ordem de empilhamento para a Div 1 */
+  }
+  
+  .div2 {
+    position: relative; /* Importante para controlar o z-index */
+    z-index: 1; /* Define a ordem de empilhamento para a Div 2 */
+  }
+  
+  .card-curse{
+        flex: 1;
+        margin: 0 10px;
+        background: #f0f0f0;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        /* border-radius: 0.25rem; */
+  }
